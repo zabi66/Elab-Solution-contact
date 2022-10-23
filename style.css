@@ -13,7 +13,7 @@
     padding: 0;
 }
 body{
-    overflow-x: hidden;  
+/*     overflow-x: hidden;   */
    animation: transitionIn 4s;   
     background-color: rgb(12, 10, 10);
        content: "\2764";
