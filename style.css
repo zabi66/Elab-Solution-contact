@@ -1,0 +1,143 @@
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;  
+   animation: transitionIn 4s;   
+    background-color: rgb(12, 10, 10);
+       content: "\2764";
+}
+h1{
+    color:#12c2c2;
+    border: 7px solid #12c2c2;
+    margin: 0px 75px;
+   position: relative;
+   top: 30px;
+    padding: 16px;
+    width: 270px;
+    font-size: 27px;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgb(20, 18, 18), 0 17px 50px 0 rgba(44, 34, 34, 0.938);
+}
+ul li {
+    list-style: none;
+     display: inline-block;
+     line-height: 100px; 
+   margin: 0px 20px;
+   position: relative;
+   left: 800px;
+   top: -60px;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+}
+a:hover{
+   color: #7d7dfc;
+}
+.Conact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e1e1e1; 
+    border: none;
+    border-radius: 30px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Conact:hover{
+    background-color: #8f8d8d; 
+}
+
+.contact1 {
+    position:relative; 
+    left: 100px;
+    top: 60px;
+   color: white;
+   font-size: 40px;
+  
+}
+.contact3{
+    position:relative; 
+    left: 100px;
+    top: 60px;
+   color: white;
+   font-size: 22px;
+}
+
+.gmail {
+    color:orange;
+    text-decoration: none;
+}
+.form {
+    width: 500px;
+    padding: 6px;
+     position:relative; 
+    left: 100px;
+    top: 100px;
+}
+
+input, textarea {
+    width:100%;
+    padding: 6px;
+    outline: none;
+    border: 5px inset rgb(7 173 165);
+    margin: 6px 0px;
+}
+
+#secondName {
+    position:relative; 
+     left: 560px;
+     top: -50px;
+ }
+ #subject {
+    position:relative; 
+     left: 560px;
+     top: -90px;
+ }
+ #email {
+    position:relative; 
+     top: -40px;
+ }
+ #message{
+    width: 212%;
+      position:relative; 
+     top: -80px;
+ }
+#btn {
+     position:relative; 
+     top: -70px;
+    width: 170px;
+    padding: 6px;
+    cursor: pointer;
+     border: 5px inset rgb(7 173 165);
+     font-size: 20px;
+}
+#btn:hover{
+ background-color: #140d99;
+ color: white;
+}
+.thanks{
+    color:rgb(7, 140, 173);
+    position:relative; 
+    left: 0px;
+    top: 280px;
+}
